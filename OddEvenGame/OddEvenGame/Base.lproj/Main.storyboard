@@ -79,6 +79,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="gameStartPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mHa-Vy-FwJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -95,6 +98,7 @@
                     </view>
                     <connections>
                         <outlet property="computerBallCountLvl" destination="dBH-dn-jzP" id="s40-t2-ZdF"/>
+                        <outlet property="resultLvl" destination="3JT-Eg-trF" id="ZkZ-g9-Jxr"/>
                         <outlet property="userBallCountLvl" destination="InH-6N-KIz" id="7cu-w5-EYN"/>
                     </connections>
                 </viewController>
