@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD0CFC17287828BB00A6399D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0CFC16287828BB00A6399D /* SecondViewController.swift */; };
 		FD58FFB828743A0900A6674B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58FFB728743A0900A6674B /* AppDelegate.swift */; };
 		FD58FFBA28743A0900A6674B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58FFB928743A0900A6674B /* SceneDelegate.swift */; };
 		FD58FFBC28743A0A00A6674B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD58FFBB28743A0A00A6674B /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD0CFC16287828BB00A6399D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FD58FFB428743A0900A6674B /* OddEvenGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OddEvenGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD58FFB728743A0900A6674B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD58FFB928743A0900A6674B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				FD58FFC028743A0B00A6674B /* Assets.xcassets */,
 				FD58FFC228743A0B00A6674B /* LaunchScreen.storyboard */,
 				FD58FFC528743A0B00A6674B /* Info.plist */,
+				FD0CFC16287828BB00A6399D /* SecondViewController.swift */,
 			);
 			path = OddEvenGame;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0CFC17287828BB00A6399D /* SecondViewController.swift in Sources */,
 				FD58FFBC28743A0A00A6674B /* ViewController.swift in Sources */,
 				FD58FFB828743A0900A6674B /* AppDelegate.swift in Sources */,
 				FD58FFBA28743A0900A6674B /* SceneDelegate.swift in Sources */,

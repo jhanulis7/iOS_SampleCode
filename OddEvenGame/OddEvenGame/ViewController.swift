@@ -92,5 +92,34 @@ class ViewController: UIViewController {
         computerBallCountLvl.text = String(comBallCount)
         userBallCountLvl.text = String(userBallCount)
     }
+    
+    
+    //viewContoller 에 화면이 나타나고 나서 호출되어짐.
+    //UI Animation, Sound 등 업데이트 할때 사용함
+    override func viewWillAppear(_ animated: Bool) {
+        print("뷰가 나타날것입니다.")
+    }
+    
+    
+    //viewController 가 데이타와 다 연동되고나서 호출되어짐.
+    override func viewDidAppear(_ animated: Bool) {
+        print("뷰가 나타났습니다.")
+    }
+    
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        print("뷰가 사라졌습니다")
+    }
+
+    //백그라운드전 들어가기전에 호출되어짐. 작업 저장
+    override func viewWillDisappear(_ animated: Bool) {
+        print("뷰가 사라질것입나다")
+    }
+
+    @IBAction func btnPressed(_ sender: UIButton) {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyBoard.instantiateViewController(identifier:"SecondViewController") as SecondViewController
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
 }
 
